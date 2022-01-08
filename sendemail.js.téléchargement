@@ -1,0 +1,6 @@
+var sendEmail = function() {
+    var name = document.getElementById("name").value
+    var email = document.getElementById("email").value
+    var content = document.getElementById("content").value
+    window.open(`mailto:prod.zuygui@gmail.com?subject=De ${name} (${email}) via le site web.&body=${content}`)
+}
